@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane  id="AnchorPane" prefHeight="251.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.GouvernoratController">
+  <children>
+    <Button onAction="#enregistrer" alignment="CENTER" contentDisplay="LEFT" layoutX="255.0" layoutY="186.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="92.0" text="Ajouter" textOverrun="WORD_ELLIPSIS" />
+    <Label layoutX="187.0" layoutY="16.0" text="Formulaire Gouvernorat">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Label>
+    <Label layoutX="176.0" layoutY="89.0" text="Id :" />
+    <TextField fx:id="wid" layoutX="201.0" layoutY="88.0" prefWidth="200.0" />
+    <TextField fx:id="wlibelle_gouvernorat" layoutX="200.0" layoutY="127.0" prefWidth="200.0" />
+    <Label layoutX="82.0" layoutY="127.0" text="Libelle Gouvernorat :" />
+  </children>
+</AnchorPane>

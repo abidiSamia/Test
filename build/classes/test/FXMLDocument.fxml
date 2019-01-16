@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="563.0" prefWidth="778.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="test.FXMLDocumentController">
+  <children>
+    <Button fx:id="button" layoutX="181.0" layoutY="414.0" onAction="#handleButtonAction" text="Enregistrer" />
+    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" />
+    <Label layoutX="181.0" layoutY="20.0" text="Gestion des etudiants">
+      <font>
+        <Font name="Bodoni MT Bold" size="30.0" />
+      </font>
+    </Label>
+    <TextField fx:id="wcin" layoutX="111.0" layoutY="80.0" prefWidth="200.0" />
+    <Label layoutX="79.0" layoutY="83.0" text="CIN :" />
+    <Button fx:id="btGouvernorat" layoutX="285.0" layoutY="414.0" mnemonicParsing="false" onAction="#ViewGouvernorat" text="Gestion des gouvernorats" />
+    <TableView layoutX="58.0" layoutY="149.0" prefHeight="241.0" prefWidth="665.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="id" />
+        <TableColumn prefWidth="75.0" text="nom" />
+        <TableColumn prefWidth="75.0" text="prenom" />
+        <TableColumn prefWidth="75.0" text="adresse" />
+        <TableColumn prefWidth="75.0" text="Column X" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>
